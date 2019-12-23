@@ -88,3 +88,9 @@ WHERE
 	item0_.NAME =?
 	
 => Do bảng 	ITEM_CHARACTERISTICS không có data
+
+5. @JoinColumn vs mappedBy
+
+Cách khác để tạo quan hệ OneToMany là dùng @JoinCoulumn, dùng cach nào cũng được
+
+https://www.baeldung.com/jpa-joincolumn-vs-mappedby
